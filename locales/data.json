@@ -1,0 +1,1383 @@
+{
+  "en": {
+    "accountName": [
+      {
+        "type": 0,
+        "value": "Account name: "
+      },
+      {
+        "type": 1,
+        "value": "value"
+      }
+    ],
+    "accountNumber": [
+      {
+        "type": 0,
+        "value": "Account number: "
+      },
+      {
+        "type": 1,
+        "value": "value"
+      }
+    ],
+    "actualSpendBreakdownPerspectiveValues": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Top 3 affiliates of spend"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Top 3 products of spend"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Top 3 sources of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "actualSpendBreakdownResolutionValues": [
+      {
+        "options": {
+          "cumulative": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Cumulative"
+              }
+            ]
+          },
+          "monthly": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Monthly"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "breakdownAlertDesc": [
+      {
+        "type": 0,
+        "value": "The sum of breakdowns shown might not equal to the actual spend total. To understand more, consult your account team."
+      }
+    ],
+    "breakdownAlertTitle": [
+      {
+        "type": 0,
+        "value": "Sum of breakdowns might not equal to actual spend"
+      }
+    ],
+    "cancel": [
+      {
+        "type": 0,
+        "value": "Cancel"
+      }
+    ],
+    "chartCurrentSpendLegendLabel": [
+      {
+        "type": 0,
+        "value": "Actual spend YTD ("
+      },
+      {
+        "type": 1,
+        "value": "dateRange"
+      },
+      {
+        "type": 0,
+        "value": ")"
+      }
+    ],
+    "chartCurrentSpendNoDataLegendLabel": [
+      {
+        "type": 0,
+        "value": "Actual spend YTD (no data)"
+      }
+    ],
+    "chartCurrentSpendTooltip": [
+      {
+        "type": 0,
+        "value": "Actual spend YTD"
+      }
+    ],
+    "chartNoData": [
+      {
+        "type": 0,
+        "value": "no data"
+      }
+    ],
+    "chartOthers": [
+      {
+        "offset": 0,
+        "options": {
+          "one": {
+            "value": [
+              {
+                "type": 1,
+                "value": "count"
+              },
+              {
+                "type": 0,
+                "value": " Other"
+              }
+            ]
+          },
+          "other": {
+            "value": [
+              {
+                "type": 1,
+                "value": "count"
+              },
+              {
+                "type": 0,
+                "value": " Others"
+              }
+            ]
+          }
+        },
+        "pluralType": "cardinal",
+        "type": 6,
+        "value": "count"
+      }
+    ],
+    "chartPreviousSpendLegendLabel": [
+      {
+        "type": 0,
+        "value": "Previous year spend ("
+      },
+      {
+        "type": 1,
+        "value": "dateRange"
+      },
+      {
+        "type": 0,
+        "value": ")"
+      }
+    ],
+    "chartPreviousSpendNoDataLegendLabel": [
+      {
+        "type": 0,
+        "value": "Previous year spend (no data)"
+      }
+    ],
+    "chartPreviousSpendTooltip": [
+      {
+        "type": 0,
+        "value": "Previous year spend"
+      }
+    ],
+    "chartThresholdSpendLegendLabel": [
+      {
+        "type": 0,
+        "value": "Committed spend ("
+      },
+      {
+        "type": 1,
+        "value": "dateRange"
+      },
+      {
+        "type": 0,
+        "value": ")"
+      }
+    ],
+    "chartThresholdSpendNoDataLegendLabel": [
+      {
+        "type": 0,
+        "value": "Committed spend (no data)"
+      }
+    ],
+    "chartThresholdSpendTooltip": [
+      {
+        "type": 0,
+        "value": "Committed spend"
+      }
+    ],
+    "chartTooltipTitle": [
+      {
+        "type": 1,
+        "value": "value"
+      }
+    ],
+    "committedSpendTrendPerspectiveValues": [
+      {
+        "options": {
+          "actual": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Actual spend"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "previous_over_actual": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Previous year over actual spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "consumptionDate": [
+      {
+        "type": 0,
+        "value": "Consumption date: "
+      },
+      {
+        "type": 1,
+        "value": "date"
+      }
+    ],
+    "contractDate": [
+      {
+        "type": 0,
+        "value": "Contract dates: "
+      },
+      {
+        "type": 1,
+        "value": "dateRange"
+      }
+    ],
+    "currencyAbbreviations": [
+      {
+        "options": {
+          "billion": {
+            "value": [
+              {
+                "type": 1,
+                "value": "value"
+              },
+              {
+                "type": 0,
+                "value": " B"
+              }
+            ]
+          },
+          "million": {
+            "value": [
+              {
+                "type": 1,
+                "value": "value"
+              },
+              {
+                "type": 0,
+                "value": " M"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "quadrillion": {
+            "value": [
+              {
+                "type": 1,
+                "value": "value"
+              },
+              {
+                "type": 0,
+                "value": " q"
+              }
+            ]
+          },
+          "thousand": {
+            "value": [
+              {
+                "type": 1,
+                "value": "value"
+              },
+              {
+                "type": 0,
+                "value": " K"
+              }
+            ]
+          },
+          "trillion": {
+            "value": [
+              {
+                "type": 1,
+                "value": "value"
+              },
+              {
+                "type": 0,
+                "value": " t"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "symbol"
+      }
+    ],
+    "dashboardActualSpendBreakdownTitle": [
+      {
+        "type": 0,
+        "value": "Actual spend breakdowns"
+      }
+    ],
+    "dashboardActualSpendTitle": [
+      {
+        "type": 0,
+        "value": "Actual spend contract YTD"
+      }
+    ],
+    "dashboardCommitmentSpendTitle": [
+      {
+        "type": 0,
+        "value": "Remaining commitment balance"
+      }
+    ],
+    "dashboardCommitmentSpendTrendTitle": [
+      {
+        "type": 0,
+        "value": "Committed spend trend"
+      }
+    ],
+    "dateRange": [
+      {
+        "options": {
+          "contracted_last_year": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Past contracted year"
+              }
+            ]
+          },
+          "contracted_ytd": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Contracted YTD"
+              }
+            ]
+          },
+          "last_nine_months": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Last 9 months"
+              }
+            ]
+          },
+          "last_six_months": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Last 6 months"
+              }
+            ]
+          },
+          "last_three_months": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Last 3 months"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "dateRangeLabel": [
+      {
+        "type": 0,
+        "value": "Time"
+      }
+    ],
+    "detailsEmptyState": [
+      {
+        "type": 0,
+        "value": "No data available"
+      }
+    ],
+    "detailsTableAriaLabel": [
+      {
+        "type": 0,
+        "value": "Details table"
+      }
+    ],
+    "detailsTableSelectAriaLabel": [
+      {
+        "type": 0,
+        "value": "Details table row select"
+      }
+    ],
+    "detailsTitle": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend Details"
+      }
+    ],
+    "docs": [
+      {
+        "type": 0,
+        "value": "https://access.redhat.com/documentation/en-us/hybrid_committed_spend/2023"
+      }
+    ],
+    "emptyFilterStateSubtitle": [
+      {
+        "type": 0,
+        "value": "Sorry, no data with the given filter was found."
+      }
+    ],
+    "emptyFilterStateTitle": [
+      {
+        "type": 0,
+        "value": "No match found"
+      }
+    ],
+    "errorStateNotAuthorizedDesc": [
+      {
+        "type": 0,
+        "value": "Contact the cost management administrator to provide access to this application"
+      }
+    ],
+    "errorStateNotAuthorizedTitle": [
+      {
+        "type": 0,
+        "value": "You don't have access to the Cost management application"
+      }
+    ],
+    "errorStateUnexpectedDesc": [
+      {
+        "type": 0,
+        "value": "We encountered an unexpected error. Contact your administrator."
+      }
+    ],
+    "errorStateUnexpectedTitle": [
+      {
+        "type": 0,
+        "value": "Oops!"
+      }
+    ],
+    "excessSpendAriaLabel": [
+      {
+        "type": 0,
+        "value": "A dialog with a description of actual spend roll over"
+      }
+    ],
+    "excessSpendExcluded": [
+      {
+        "type": 0,
+        "value": "Excess actual spend excluded"
+      }
+    ],
+    "excessSpendExcludedDesc": [
+      {
+        "type": 0,
+        "value": "The previous year had an excess actual spend of "
+      },
+      {
+        "type": 1,
+        "value": "value"
+      },
+      {
+        "type": 0,
+        "value": ". That amount will not be reflected in these breakdowns"
+      }
+    ],
+    "excessSpendIncluded": [
+      {
+        "type": 0,
+        "value": "Excess actual spend included"
+      }
+    ],
+    "excessSpendIncludedDesc": [
+      {
+        "type": 0,
+        "value": "The previous year had an excess actual spend of "
+      },
+      {
+        "type": 1,
+        "value": "value"
+      },
+      {
+        "type": 0,
+        "value": ". That amount has been rolled over into this current's year actual spend and is reflected in the Actual spend YTD totals."
+      }
+    ],
+    "exportDataType": [
+      {
+        "options": {
+          "json": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Data shown in table"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "raw": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Raw (unfiltered) data"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "exportDataTypeTitle": [
+      {
+        "type": 0,
+        "value": "Data type"
+      }
+    ],
+    "exportError": [
+      {
+        "type": 0,
+        "value": "Something went wrong, please try again"
+      }
+    ],
+    "exportFileName": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "options": {
+                  "none": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "affiliate_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "other": {
+                    "value": []
+                  },
+                  "product": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "affiliate_product_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "source_of_spend": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "affiliate_source-of-spend_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  }
+                },
+                "type": 5,
+                "value": "secondaryGroupBy"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "options": {
+                  "affiliate": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "product_affiliate_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "none": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "product_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "other": {
+                    "value": []
+                  },
+                  "source_of_spend": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "product_source-of-spend_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  }
+                },
+                "type": 5,
+                "value": "secondaryGroupBy"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "options": {
+                  "affiliate": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "source-of-spend_affiliate_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "none": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "source-of-spend_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  },
+                  "other": {
+                    "value": []
+                  },
+                  "product": {
+                    "value": [
+                      {
+                        "type": 0,
+                        "value": "source-of-spend_product_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "startDate"
+                      },
+                      {
+                        "type": 0,
+                        "value": "_"
+                      },
+                      {
+                        "type": 1,
+                        "value": "endDate"
+                      }
+                    ]
+                  }
+                },
+                "type": 5,
+                "value": "secondaryGroupBy"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "groupBy"
+      }
+    ],
+    "exportGenerate": [
+      {
+        "type": 0,
+        "value": "Generate export"
+      }
+    ],
+    "exportHeading": [
+      {
+        "type": 0,
+        "value": "The export file will be in a .CSV format. Any filters that have been applied to the Hybrid Committed Spend Details table, will be used to generate the export file."
+      }
+    ],
+    "exportTitle": [
+      {
+        "type": 0,
+        "value": "Export"
+      }
+    ],
+    "filterByButtonAriaLabel": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter button for affiliates"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter button for products"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter button for source of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "filterByInputAriaLabel": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter input for affiliates"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter input for products"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter input for source of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "filterByPlaceholder": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter by affiliate name"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter by product name"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Filter by source of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "filterByValues": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Affiliate"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Product"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Source of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "groupBy": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Affiliate"
+              }
+            ]
+          },
+          "none": {
+            "value": [
+              {
+                "type": 0,
+                "value": "None"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Product"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Source of spend"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "groupByLabel": [
+      {
+        "type": 0,
+        "value": "Grouped by"
+      }
+    ],
+    "groupByValueNames": [
+      {
+        "options": {
+          "affiliate": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Affiliate names"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "product": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Product names"
+              }
+            ]
+          },
+          "source_of_spend": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Source of spend names"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "groupBy"
+      }
+    ],
+    "hcs": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend"
+      }
+    ],
+    "hcsDocumentation": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend Documentation"
+      }
+    ],
+    "loadingStateDesc": [
+      {
+        "type": 0,
+        "value": "Searching for your sources. Do not refresh the browser"
+      }
+    ],
+    "loadingStateTitle": [
+      {
+        "type": 0,
+        "value": "Looking for sources..."
+      }
+    ],
+    "names": [
+      {
+        "offset": 0,
+        "options": {
+          "one": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Name"
+              }
+            ]
+          },
+          "other": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Names"
+              }
+            ]
+          }
+        },
+        "pluralType": "cardinal",
+        "type": 6,
+        "value": "count"
+      }
+    ],
+    "noResultsFound": [
+      {
+        "type": 0,
+        "value": "No results found"
+      }
+    ],
+    "notDeal": [
+      {
+        "type": 0,
+        "value": "This organization does not participate in a Hybrid Committed Spend program."
+      }
+    ],
+    "notDealDesc": [
+      {
+        "type": 0,
+        "value": "Contact your Red Hat account representative for more information."
+      }
+    ],
+    "notViewer": [
+      {
+        "type": 0,
+        "value": "You do not have permissions to Hybrid Committed Spend"
+      }
+    ],
+    "notViewerDesc": [
+      {
+        "type": 0,
+        "value": "Please contact your account manager to assign a viewer role."
+      }
+    ],
+    "notVisible": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend data is not visible"
+      }
+    ],
+    "notVisibleDesc": [
+      {
+        "type": 0,
+        "value": "If you need access to this data, please contact your account manager."
+      }
+    ],
+    "outOf": [
+      {
+        "type": 0,
+        "value": "out of "
+      },
+      {
+        "type": 1,
+        "value": "value"
+      }
+    ],
+    "overLastMonth": [
+      {
+        "type": 0,
+        "value": "Over last month"
+      }
+    ],
+    "overviewTitle": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend Overview"
+      }
+    ],
+    "pageTitleDefault": [
+      {
+        "type": 0,
+        "value": "Hybrid Committed Spend | Red Hat Business Services"
+      }
+    ],
+    "pageTitleDetails": [
+      {
+        "type": 0,
+        "value": "Details - Hybrid Committed Spend | Red Hat Business Services"
+      }
+    ],
+    "pageTitleOverview": [
+      {
+        "type": 0,
+        "value": "Overview - Hybrid Committed Spend | Red Hat Business Services"
+      }
+    ],
+    "paginationTitle": [
+      {
+        "options": {
+          "bottom": {
+            "value": [
+              {
+                "type": 1,
+                "value": "title"
+              },
+              {
+                "type": 0,
+                "value": " bottom pagination"
+              }
+            ]
+          },
+          "other": {
+            "value": [
+              {
+                "type": 1,
+                "value": "title"
+              },
+              {
+                "type": 0,
+                "value": " pagination"
+              }
+            ]
+          },
+          "top": {
+            "value": [
+              {
+                "type": 1,
+                "value": "title"
+              },
+              {
+                "type": 0,
+                "value": " top pagination"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "placement"
+      }
+    ],
+    "percent": [
+      {
+        "type": 1,
+        "value": "value"
+      },
+      {
+        "type": 0,
+        "value": " %"
+      }
+    ],
+    "secondaryGroupByLabel": [
+      {
+        "type": 0,
+        "value": "Secondary group by"
+      }
+    ],
+    "sourceOfSpendLabel": [
+      {
+        "type": 0,
+        "value": "View"
+      }
+    ],
+    "sourceOfSpendValues": [
+      {
+        "options": {
+          "all": {
+            "value": [
+              {
+                "type": 0,
+                "value": "All sources of spend"
+              }
+            ]
+          },
+          "aws": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Amazon Web Services"
+              }
+            ]
+          },
+          "azure": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Azure"
+              }
+            ]
+          },
+          "ccsp": {
+            "value": [
+              {
+                "type": 0,
+                "value": "CCSP"
+              }
+            ]
+          },
+          "consulting": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Consulting"
+              }
+            ]
+          },
+          "embedded": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Embedded"
+              }
+            ]
+          },
+          "gcp": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Google Cloud Platform"
+              }
+            ]
+          },
+          "miscellaneous": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Miscellaneous"
+              }
+            ]
+          },
+          "oci": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Oracle Cloud Infrastructure"
+              }
+            ]
+          },
+          "oem": {
+            "value": [
+              {
+                "type": 0,
+                "value": "OEM"
+              }
+            ]
+          },
+          "on_demand": {
+            "value": [
+              {
+                "type": 0,
+                "value": "On-demand subscriptions"
+              }
+            ]
+          },
+          "other": {
+            "value": []
+          },
+          "svp": {
+            "value": [
+              {
+                "type": 0,
+                "value": "SVP"
+              }
+            ]
+          },
+          "training": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Training"
+              }
+            ]
+          },
+          "yearly_subscriptions": {
+            "value": [
+              {
+                "type": 0,
+                "value": "Yearly subscriptions"
+              }
+            ]
+          }
+        },
+        "type": 5,
+        "value": "value"
+      }
+    ],
+    "suggestions": [
+      {
+        "type": 0,
+        "value": "Suggestions"
+      }
+    ],
+    "viewDetails": [
+      {
+        "type": 0,
+        "value": "View details"
+      }
+    ]
+  }
+}

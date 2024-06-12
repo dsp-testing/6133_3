@@ -1,0 +1,60 @@
+{
+  "name": "hybrid-committed-spend",
+  "version": "0.0.1",
+  "description": "User Interface for Hybrid Committed Spend",
+  "main": "index.js",
+  "author": "Red Hat",
+  "license": "GNU AGPLv3",
+  "private": false,
+  "engines": {
+    "node": ">=18.15.0",
+    "npm": ">=9.5.0"
+  },
+  "scripts": {
+    "build": "npm run build:prod",
+    "build:prod": "fec build",
+    "check:messages": "sh scripts/unused-messages.sh",
+    "check:updates": "npx npm-check-updates",
+    "check:updates:upgrade": "npx npm-check-updates -u",
+    "clean": "rimraf dist .cache .swc",
+    "codemods": "npx @patternfly/pf-codemods@latest src",
+    "deploy": "npm-run-all build lint test",
+    "install:pkgs": "npm install",
+    "install:pkgs:force": "npm install --force",
+    "install:pkgs:links": "npm run install:pkgs && npm install --install-links",
+    "lint": "npm-run-all lint:*",
+    "lint:ts": "eslint src",
+    "lint:ts:fix": "eslint src --fix",
+    "lint:sass": "stylelint 'src/**/*.scss' --config .stylelintrc.json",
+    "patch:hosts": "fec patch-etc-hosts",
+    "postinstall": "ts-patch install && rm -rf .cache",
+    "start": "HMR=true fec dev",
+    "start:csb": "CLOUD_SERVICES_BACKEND_PORT=8000 npm start",
+    "start:hmr": "HMR=true npm start",
+    "stats": "npm run build:prod --profile --json > stats.json",
+    "test": "jest --no-cache",
+    "test:clean": "jest --clearCache",
+    "test:update": "npm run test:clean && jest --updateSnapshot",
+    "translations": "npm-run-all translations:extract translations:compile translations:compile:ast translations:datafile",
+    "translations:test": "npm-run-all translations:extract translations:compile translations:compile:ast 'translations:syncTranslations --locale fr' 'translations:syncTranslations --locale de' translations:datafile",
+    "translations:clean": "rm -f `/bin/ls -1 locales/*.json | /usr/bin/egrep -v 'data|translations'.json`",
+    "translations:extract": "npx formatjs extract src/locales/*.ts --out-file build/messages/src/Messages.json",
+    "translations:compile": "npx formatjs compile build/messages/src/Messages.json --out-file locales/translations.json",
+    "translations:compile:ast": "npx formatjs compile build/messages/src/Messages.json --out-file locales/en.json --ast",
+    "translations:datafile": "node scripts/createDataJson.js",
+    "translations:syncTranslations": "node scripts/syncTranslations.js",
+    "verify": "npm-run-all build lint test"
+  },
+  "dependencies": {
+    "@redhat-cloud-services/frontend-components-translations": "^3.2.7",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+  },
+  "overrides": {
+    "redux": "^5.0.1"
+  },
+  "insights": {
+    "appname": "hybrid-committed-spend"
+  }
+}
